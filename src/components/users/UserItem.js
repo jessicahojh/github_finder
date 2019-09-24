@@ -2,10 +2,9 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 const UserItem = (props) => {
-
         // const {login, avatar_url, html_url} = props.user;
         // if we used that, we won't need to write 'props.user' everytime below
-
+        
         return (
         <div className="card text-center">
             <img 
